@@ -1,0 +1,295 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #FFD36E;
+}
+
+.wrap{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.main-header{
+  width: 100%;
+}
+
+.left{
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.right{
+  float: right;
+}
+
+.right ul li{
+  display: inline-block;
+  padding: 10px 15px 5px 15px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.right a{
+  text-decoration: none;
+  color:#383838;
+  }
+
+.right a:hover{
+  color: #ffffff;
+}
+
+.banner img{
+  width: 100%;
+  height: 500px;
+}
+
+.banner{
+  position: relative;
+}
+
+.banner-content{
+  position: absolute;
+  transform: translate(56%, -185%);
+  font-size: 35px;
+  font-family: Montserrat;
+  color: #fff;
+  text-shadow: 0 0 0.8em #fff, 0 0 0.6em #99A799;
+}
+
+.box-section{
+  margin: 30px 0;
+
+}
+.column{
+  background-color: #FFD365;
+  text-align: center;
+  width: 23%;
+  float: left;
+  margin: 0 11px;
+}
+
+.image-border{
+  border-top: 5px solid;
+  color: #ffffff;
+}
+
+.section-two{
+  height: 50px;
+  width: 50px;
+  margin: 20px 0;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.column-para{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.section-heading{
+  text-align: center;
+}
+.middle-box-heading{
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.middle-box-para{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.middle-section-img{
+ width: 100%;
+ margin: 0 10px;
+  }
+  .main-midle-section{
+    float: left;
+    width: 20%;
+    margin: 20px;
+  }
+
+  .middle-section-heading{
+    padding-top: 15px;
+    font-size: 26px;
+  }
+
+  .third-section{
+    background-color: #FFD365;
+  }
+
+  .third-section-header{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0;
+  }
+
+  .third-section-para{
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .third-section-images{
+    width: 100%;
+    border-radius: 10%;
+  }
+
+  .third-section-main-div{
+    float: left;
+    width: 30%;
+    margin: 11px;
+    text-align: left;
+  }
+
+  .last-part-head{
+    text-align: center;
+  }
+
+  .last-part-heading{
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .last-part-para{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.last-part-div{
+  width: 100%;
+  }
+
+.last-div-para{
+  width: 50%;
+  float: left;
+  padding-top: 50px;
+  font-size: 16px;
+}
+.last-div-para-img{
+  margin: 22px;
+}
+
+.arrow{
+  float: left;
+  width: 4%;
+  margin-right: 20px;
+  }
+
+  .last-part-div ul li{
+    list-style: none;
+
+  }
+
+  .last-part-div ul{
+    padding: 10px 0;
+  }
+
+  .last-part{
+    margin-bottom: 90px;
+  }
+
+
+.buttonClass {
+  font-size:19px;
+  font-family:Georgia;
+  width:168px;
+  height:67px;
+  border-width:1px;
+  color:#fff;
+  border-color:#eeb44f;
+  font-weight:bold;
+  font-style:italic;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  text-shadow:inset 0px 1px 0px #cc9f52;
+  background:#ffc477;
+  padding: 10px 20px;
+  text-decoration: none;
+
+}
+
+.buttonClass:hover {
+  background: #fb9e25
+}
+
+.last-portion{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.last-portion ul li{
+  list-style: none;
+  padding-top: 7px;
+  padding-bottom: 5px;
+
+}
+
+
+
+.last-portion ul{
+  padding-inline-start: 0;
+
+}
+
+.last-portion{
+  padding: 70px 0;
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.last-portion p{
+  color: #ffffff;
+  line-height: 3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.last-portion-link{
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.last-portion-link:hover{
+  color: #E9EFC0;
+  text-shadow: 0 0 0.8em #E9EFC0, 0 0 0.6em #E4E9BE;
+}
+
+.last-portion-heading{
+  color: #E8C07D;
+  text-shadow: 0 0 0.8em #E8C07D; 0 0 0.6em #CC704B;
+
+}
+
+.row-last-portion{
+  width: 100%
+  padding: 10px;
+
+}
+
+.last-portion-column{
+
+  width: 23%;
+  float: left;
+  padding: 0 11px;;
+
+}
